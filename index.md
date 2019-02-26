@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Owncloud Quick Start Guide for Owncloud
+This guide describes how to quickly install and configure your Owncloud server and how to connect to it from a client. This will help you to get familiar with Owncloud and let you verify that some basic user and connection settings are correct.
 
-You can use the [editor on GitHub](https://github.com/flanneryj123/Owncloud/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+###About this Guide
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###Audience
+The intended audience for this guide are new users who want to complete a basic set up 
 
-### Markdown
+###Overview
+This quick start guide consists of the following tasks:
+1. Install the Owncloud server 
+2. Enable user connections
+3. Add a user account
+4. Connect to the server using a desktop or mobile client
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##Downloading
+To complete the set up, you need to install the Owncloud server and the client that you will use to connect to it. 
 
-```markdown
-Syntax highlighted code block
+There are a number of options for installing the Owncloud server:
+a. Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production       environments.
+b. Docker image: These images are designed for experienced users who work in dockerized environments
+c. Appliance: The appliance is the eaiest way to install the server. You use it with Virtualization software such VirtualBox. It is       the best option for inexperienced users. This is the option that we will use in this guide
+d. Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
+e. Hosted servers: A number of web service providers offer Owncloud installations as part of their web hosting offerings. 
+ 
+For more information about each of these, see <https://owncloud.org/download/#owncloud-server-tar-ball>
 
-# Header 1
-## Header 2
-### Header 3
+You also need to download either a desktop or mobile client from here. You will use this to test the connection to your server. 
 
-- Bulleted
-- List
+##System requirements
+For the list of system requirements, see https://doc.owncloud.com/server/admin_manual/installation/system_requirements.html
 
-1. Numbered
-2. List
+##Installing and configuring the Owncloud Server
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/flanneryj123/Owncloud/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
