@@ -26,7 +26,7 @@ You can also download the desktop or mobile client from  the same [link](https:/
 
 ### Assumptions
 
-This guide assumes that you will install the Appliance image of the ownCloud server and that you will connect to it with a desktop or mobile client. 
+This guide assumes that you will install the Appliance image of the ownCloud server and that you will connect to it with a desktop  client. 
 
 ### Documentation
 The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
