@@ -72,7 +72,7 @@ To install and configure the server:
 
 ### Activating the licence
 
-After you complete the installation and configuration, you need to activate your licence. To do so, open a browser and enter the IP address of the server that you created in the previous step.
+After you complete the installation and configuration, you need to activate your licence. To do so, open a browser and enter the IP address of the server that you created in the previous step. 
 
 ### Creating ownCloud users
 
@@ -90,7 +90,7 @@ Finally, you need to download and install the desktop or mobile client and test 
 1. Download the Desktop Client from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball).
 2. To run the application, click the downloaded file. 
 3. Enter the IP address of your ownCloud server in the *Server Address* field. 
-4. Enter a user name and password. Use one of the users that you created in the previous section.
+4. Enter a user name and password. Use one of the ownCloud users that you created in the previous section.
 5. To verify that the connection is working, you can create a new folder and place a file in it. 
 
 You are now ready to begin using your ownCloud server. For more information, see the [User's Manual](https://doc.owncloud.com/server/user_manual/).
