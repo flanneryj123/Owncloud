@@ -41,7 +41,7 @@ For an overview of this guide with screenshots, you can also download the [White
 
 To ensure complete installation, complete the following steps:
 
-1. Review the system and user requirements.
+1. Review the system requirements.
 2. Install and configure the server.
 3. Activate the licence.
 4. Create ownCloud users.
@@ -51,10 +51,6 @@ To ensure complete installation, complete the following steps:
 ### System requirements
 
 For the list of system requirements, see [System Requirements](https://doc.ownCloud.com/server/admin_manual/installation/system_requirements.html).
-
-### User requirements
-
-Ensure that the user who installs the server has . 
 
 ### Installing and configuring the server
 
