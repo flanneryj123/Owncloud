@@ -71,7 +71,7 @@ To install and configure the server:
 + Ensure that the *Update system after setup* checkbox is selected.
 + Note any passwords and the IP address of the server a they are required later.
 + The password that you enter here is the root user's password for the virtaul machine that you are accessing.
-* If you use Fully Qualified Domain Names (FQDN)and hosts, enter them. If you are not familiar with these, use the default settings.
+* If you use Fully Qualified Domain Names (FQDN) and hosts, enter them. If you are not familiar with these, use the default settings.
 7. To complete the configuration, click *Finish*. 
 
 ### Activating the licence
