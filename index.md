@@ -16,7 +16,7 @@ There are a number of deployment options, including the Appliance image, that ca
 
 + Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
 + Docker image: These images are designed for experienced users who work in dockerized environments.
-+ Appliance image: The Appliance image is the easiest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
++ Appliance image: These images are the simplest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
 + Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
 + Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
  
@@ -37,11 +37,11 @@ The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
 
 To ensure complete installation, complete the following steps:
 
-1. Review the system and user requirements
-2. Install and configure the ownCloud Appliance image
-3. Enable user connections
-4. Add a user account
-5. Connect to the server using a desktop or mobile client
+1. Review the system and user requirements.
+2. Install and configure the server.
+3. Activate the licence.
+4. Create ownCloud users.
+5. Install the desktop or mobile client.
 
 
 ### System requirements
@@ -52,13 +52,13 @@ For the list of system requirements, see [System Requirements](https://doc.ownCl
 
 Ensure that the user who installs the server is an Administrator. 
 
-### Installing and configuring the Appliance image
+### Installing and configuring the server
 
 The following steps are a summary of the required steps for setting up the Appliance. The detailed steps are documented [here](https://doc.ownCloud.com/server/admin_manual/appliance/installation.html) 
 
 Ensure that you have downloaded the required virtualization tool. This example uses VirtualBox.  
 
-To install and configure the ownCloud Appliance server: 
+To install and configure the server: 
 
 1. Download the Appliance image from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball). Select the one that is appropriate for your virtualization software. In this example, we are using VirtualBox.
 2. After the download completes, click the file.
@@ -72,7 +72,7 @@ To install and configure the ownCloud Appliance server:
 
 After you complete the installation and configuration, you need to activate your licence. To do so, open a browser and enter the IP address of the server that you created in the previous step.
 
-### Creating users
+### Creating ownCloud users
 
 Next you need to create some users to test the connection to the server
 
@@ -84,7 +84,7 @@ Next you need to create some users to test the connection to the server
 ### Installing the desktop or mobile client
 
 Finally, you need to download and install the desktop or mobile client and test the connection to the server. In this example, we will download the Desktop Cient. 
-1. Download the Desktop Client from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball)
+1. Download the Desktop Client from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball).
 2. To run the application, click the downloaded file. 
 3. Enter the IP address of your ownCloud server in the Server Address field. 
 4. Enter a user name and password. 
