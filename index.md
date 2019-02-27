@@ -6,13 +6,13 @@ ownCloud is an open source file synching and sharing application. This guide des
 
 ### Audience
 
-The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to become familiar with ownCloud. 
+The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to become familiar with ownCloud. In this guide, we will install the Appliance image. This image includes prepackaged software like ownCloud X Server and Enterprise Apps, Apache 2, PHP, and MySQL to help you to get started quickly.
 
 ### Overview
 
 ### Deployment options
 
-In this guide, we will install the Appliance image. There are a number of deployment options:
+There are a number of deployment options:
 
 + Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
 + Docker images: These images are designed for experienced users who work in dockerized environments.
@@ -22,7 +22,7 @@ In this guide, we will install the Appliance image. There are a number of deploy
  
 For more information about each of these options, see [Download ownCloud](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 
-You can also download the desktop or mobile client from [the same link](https://ownCloud.org/download/#ownCloud-server-tar-ball)
+You can also download the desktop or mobile client from  the same [link](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 
 ### Assumptions
 
@@ -30,6 +30,8 @@ This guide assumes that you will install the Appliance image of the ownCloud ser
 
 ### Documentation
 The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
+
+The documentation for the Appliance is [here](https://doc.owncloud.com/server/admin_manual/appliance/what-is-it.html)
 
 ## Installation
 
@@ -89,3 +91,5 @@ Finally, you need to download and install the desktop or mobile client and test 
 3. Enter the IP address of your ownCloud server in the Server Address field. 
 4. Enter a user name and password. 
 5. To verify that the connection is working, you can create a new folder and place a file in it. 
+
+You are now ready to begin using your ownCloud server. For more information, see the User's Manual [here] (https://doc.owncloud.com/server/user_manual/).
