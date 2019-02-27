@@ -67,8 +67,11 @@ To install and configure the server:
 3. Click *Import Appliance* and import the "Univention-App-ownCloud-virtualbox.ova" file. This is a large file so it may take some time to download. 
 4. Import the file and accept the licence agreement. 
 5. Select the imported image and click *Start*. Allow time for the server to start. In most cases, 5 seconds is sufficient. 
-6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Ensure that the *Update system after setup* checkbox is selected. The password that you enter here is the root user's password for the virtaul machine that you are accessing. Note any passwords and the IP address of the server a they are required later. 
-7. To complete the configuration, click Finish. 
+6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Note the following:
++ Ensure that the *Update system after setup* checkbox is selected.
++ Note any passwords and the IP address of the server a they are required later.
++ The password that you enter here is the root user's password for the virtaul machine that you are accessing.  
+7. To complete the configuration, click "Finish". 
 
 ### Activating the licence
 
