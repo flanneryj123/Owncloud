@@ -1,6 +1,6 @@
 # Quick Start Guide for ownCloud
 
-ownCloud is an open source file synching and sharing application. This guide describes how to quickly install and configure your ownCloud server and how to connect to it from a mobile or desktop client. 
+ownCloud is an open source file synching and sharing application. This guide describes how to quickly install and configure your ownCloud server and connect to it from a mobile or desktop client. 
 
 ## About this Guide
 
@@ -9,8 +9,6 @@ ownCloud is an open source file synching and sharing application. This guide des
 The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to get familiar with ownCloud. 
 
 ### Overview
-
-To complete this quick start, you need to install the ownCloud Appliance and connect to it from a mobile or desktop application. 
 
 ### Deployment options
 
@@ -31,7 +29,7 @@ You can also download the desktop or mobile client from [the same link](https://
 This guide assumes that you will install the Appliance image of the ownCloud server and that you will connect to it with a desktop or mobile client. 
 
 ### Documentation
-The documentation for ownCloud is [here] (https://doc.owncloud.com/server/)
+The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
 
 ## Installation
 
@@ -62,7 +60,7 @@ Ensure that you have downloaded the required virtualization tool. This example u
 
 To install and configure the ownCloud Appliance server: 
 
-1. Download the Appliance image from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball). Select the one that is appropriate for your virtualization software. 
+1. Download the Appliance image from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball). Select the one that is appropriate for your virtualization software. In this example, we are using VirtualBox.
 2. After the download completes, click the file.
 3. Click Import Appliance and import the Univention-App-ownCloud-virtualbox.ova file. This is a large file so it may take some time to download. 
 4. Import the file and accept the licence agreement. 
@@ -83,9 +81,9 @@ Next you need to create some users to test the connection to the server
 3. Log in with the Administrator user and password that you created previously. 
 4. To create users, click Add:User and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password.
 
-### Testing the desktop or mobile client
+### Installing the desktop or mobile client
 
-Finally, you need to download and install the desktop or mobile client and test the connection to the server. In this guide, we will download the Desktop Cient. 
+Finally, you need to download and install the desktop or mobile client and test the connection to the server. In this example, we will download the Desktop Cient. 
 1. Download the Desktop Client from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 2. To run the application, click the downloaded file. 
 3. Enter the IP address of your ownCloud server in the Server Address field. 
