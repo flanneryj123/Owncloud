@@ -1,18 +1,18 @@
-#Quick Start Guide for ownCloud
+# Quick Start Guide for ownCloud
 
 This guide describes how to quickly install and configure your ownCloud server and how to connect to it from a client. This will help you to get familiar with ownCloud and let you verify that some basic user and connection settings are correct.
 
-##About this Guide
+## About this Guide
 
-###Audience
+### Audience
 
 The intended audience for this guide are new users who want to complete a basic set up of the Appliance version of the ownCloud server. 
 
-###Overview
+### Overview
 
 To complete this quick start, you need to install the ownCloud Appliance and connect to it from a mobile or desktop application. 
 
-###Deployment options
+### Deployment options
 
 There are a number of deployment options, including the Appliance image, that can be used to instal the ownCloud server:
 
@@ -26,16 +26,16 @@ For more information about each of these options, see [Download ownCloud](https:
 
 You can also download the desktop or mobile client from [the same link](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 
-###Assumptions
+### Assumptions
 
 This guide assumes that you will install the Appliance image of the ownCloud server and that you will connect to it with a desktop or mobile client. 
 
-###Documentation
+### Documentation
 The documentation for ownCloud is [here] ()
 
-##Installation
+## Installation
 
-###Introduction
+### Introduction
 
 This quick start guide consists of the following tasks:
 
@@ -45,21 +45,21 @@ This quick start guide consists of the following tasks:
 4. Connect to the server using a desktop or mobile client
 
 
-###System requirements
+### System requirements
 
 For the list of system requirements, see [System requirements](https://doc.ownCloud.com/server/admin_manual/installation/system_requirements.html) 
 
-###User requirements
+### User requirements
 
 Ensure that the user who installs the server is an Administrator. 
 
-###Downloading
+### Downloading
 
 Download the ownCloud Appliance image and the desktop or mobile client from {here](https://ownCloud.org/download/#ownCloud-server-tar-ball)
  
 Ensure that you have downloaded the required virtualization tool. This example uses VirtualBox.  
 
-###Installing and configuring the Appliance image
+### Installing and configuring the Appliance image
 
 The following steps are a summary of the required steps for setting up the Appliance. The detailed steps are documented [here](https://doc.ownCloud.com/server/admin_manual/appliance/installation.html) 
 
@@ -73,11 +73,11 @@ To install and configure the ownCloud Appliance server:
 6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Note any paswords and the IP address of the server. 
 7. To complete the configuration, click Finish. 
 
-###Activating the licence
+### Activating the licence
 
 After you complete the installation and configuration, you need to activate your licence. To do so, open a browser and enter the IP address of the server that you created in the previous step.
 
-###Creating users
+### Creating users
 
 Next you need to create some users to test the connection to the server
 
