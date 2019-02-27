@@ -1,14 +1,16 @@
 # Quick Start Guide for ownCloud
 
-ownCloud is an open source file synching and sharing application. This guide describes how to quickly install and configure your ownCloud server and connect to it from a mobile or desktop client. 
+ownCloud is an open source file synching and sharing application. 
 
 ## About this Guide
+
+This guide describes how to quickly install and configure your ownCloud server and connect to it from a mobile or desktop client. 
 
 ### Audience
 
 The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to become familiar with ownCloud. In this guide, we will install the Appliance image. This image includes prepackaged software like ownCloud X Server and Enterprise Apps, Apache 2, PHP, and MySQL to help you to get started quickly.
 
-### Overview
+## Overview
 
 ### Deployment options
 
@@ -28,7 +30,7 @@ You can also download the desktop or mobile client from  the same [link](https:/
 
 This guide assumes that you will install the Appliance image of the ownCloud server and that you will connect to it with a desktop  client. 
 
-### Documentation
+### Documentation and information
 The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
 
 The documentation for the Appliance is [here](https://doc.owncloud.com/server/admin_manual/appliance/what-is-it.html).
@@ -62,7 +64,7 @@ To install and configure the server:
 
 1. Download the Appliance image from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball). Select the one that is appropriate for your virtualization software. In this example, we are using VirtualBox.
 2. After the download completes, click the file.
-3. Click *Import Appliance* and import the Univention-App-ownCloud-virtualbox.ova file. This is a large file so it may take some time to download. 
+3. Click *Import Appliance* and import the "Univention-App-ownCloud-virtualbox.ova" file. This is a large file so it may take some time to download. 
 4. Import the file and accept the licence agreement. 
 5. Select the imported image and click *Start*. Allow time for the server to start. In most cases, 5 seconds is sufficient. 
 6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. The password that you enter here is the root password for the virtaul machine that you are accessing. Note any passwords and the IP address of the server. 
@@ -74,7 +76,7 @@ After you complete the installation and configuration, you need to activate your
 
 ### Creating ownCloud users
 
-Next you need to create some users to test the connection to the server
+Next you need to create some users to test the connection to the server:
 
 1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://\<ip address>/univention-management-console where \<ip_address> is the IP address of the server that you created.
 2. Click on the *System and domain settings* tile. 
@@ -84,6 +86,7 @@ Next you need to create some users to test the connection to the server
 ### Installing the desktop or mobile client
 
 Finally, you need to download and install the desktop or mobile client and test the connection to the server. In this example, we will download the Desktop Cient. 
+
 1. Download the Desktop Client from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball).
 2. To run the application, click the downloaded file. 
 3. Enter the IP address of your ownCloud server in the *Server Address* field. 
