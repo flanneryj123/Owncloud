@@ -12,11 +12,11 @@ To complete this quick start, you need to install the ownCloud Appliance and con
 ###Deployment options
 There are a number of deployment options, including the Appliance image, that can be used to instal the ownCloud server:
 
-a. Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
-b. Docker image: These images are designed for experienced users who work in dockerized environments
-c. Appliance image: The Appliance image is the easiest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide
-d. Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
-e. Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
+*Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
+*Docker image: These images are designed for experienced users who work in dockerized environments
+*Appliance image: The Appliance image is the easiest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide
+*Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
+"Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
  
 For more information about each of these options, see [Download ownCloud](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 
@@ -29,10 +29,11 @@ This guide assumes that you will install the Appliance image of the ownCloud ser
 The documentation for ownCloud is [here] ()
 
 
-##Introduction
+##Installation
+###Introduction
 This quick start guide consists of the following tasks:
 
-1. Install the ownCloud Appliance image
+1. Installing and configuring the ownCloud Appliance image
 2. Enable user connections
 3. Add a user account
 4. Connect to the server using a desktop or mobile client
@@ -81,3 +82,4 @@ Finally, you need to download and install the desktop or mobile client and test 
 3. Enter the IP address of your ownCloud server in the Server Address field. 
 4. Enter a user name and password. 
 5. To verify that the connection is working, you can create a new folder and place a file in it. 
+
