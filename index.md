@@ -33,6 +33,8 @@ The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
 
 The documentation for the Appliance is [here](https://doc.owncloud.com/server/admin_manual/appliance/what-is-it.html)
 
+You can also download the [White Paper for Appliance](https://oc.owncloud.com/rs/038-KRL-592/images/Whitepaper_User_Guide_Appliance_ENG.pdf) document which provides an overvie of this process with screenshots. 
+
 ## Installation
 
 ### Introduction
@@ -64,9 +66,9 @@ To install and configure the server:
 
 1. Download the Appliance image from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball). Select the one that is appropriate for your virtualization software. In this example, we are using VirtualBox.
 2. After the download completes, click the file.
-3. Click Import Appliance and import the Univention-App-ownCloud-virtualbox.ova file. This is a large file so it may take some time to download. 
+3. Click *Import Appliance* and import the Univention-App-ownCloud-virtualbox.ova file. This is a large file so it may take some time to download. 
 4. Import the file and accept the licence agreement. 
-5. Select the imported image and click Start. Allow time for the server to start. In most cases, 5 seconds is sufficient. 
+5. Select the imported image and click *Start*. Allow time for the server to start. In most cases, 5 seconds is sufficient. 
 6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Note any passwords and the IP address of the server. 
 7. To complete the configuration, click Finish. 
 
@@ -81,14 +83,14 @@ Next you need to create some users to test the connection to the server
 1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://\<ip address>/univention-management-console where \<ip_address> is the IP address of the server that you created.
 2. Click on the System and domain settings tile. 
 3. Log in with the Administrator user and password that you created previously. 
-4. To create users, click Add:User and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password.
+4. To create users, click *Add:User* and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password.
 
 ### Installing the desktop or mobile client
 
 Finally, you need to download and install the desktop or mobile client and test the connection to the server. In this example, we will download the Desktop Cient. 
 1. Download the Desktop Client from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball).
 2. To run the application, click the downloaded file. 
-3. Enter the IP address of your ownCloud server in the Server Address field. 
+3. Enter the IP address of your ownCloud server in the *Server Address* field. 
 4. Enter a user name and password. 
 5. To verify that the connection is working, you can create a new folder and place a file in it. 
 
