@@ -1,6 +1,6 @@
 # Quick Start Guide for ownCloud
 
-ownCloud is an open source file synching and sharing application. 
+ownCloud is an open source file synching and sharing application.
 
 ## About this Guide
 
@@ -8,7 +8,7 @@ This guide describes how to quickly install and configure your ownCloud server a
 
 ### Audience
 
-The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to become familiar with ownCloud. In this guide, we will install the Appliance image. This image includes prepackaged software like ownCloud X Server and Enterprise Apps, Apache 2, PHP, and MySQL to help you to get started quickly.
+The intended audience for this guide is new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to become familiar with ownCloud. In this guide, we will install the Appliance image. This image includes prepackaged software like ownCloud X Server and Enterprise Apps, Apache 2, PHP, and MySQL to help you to get started quickly.
 
 ## Overview
 
