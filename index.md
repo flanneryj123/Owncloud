@@ -64,7 +64,7 @@ To install and configure the server:
 
 1. Download the Appliance image from [here](https://ownCloud.org/download/#ownCloud-server-tar-ball). Select the one that is appropriate for your virtualization software. In this example, we are using VirtualBox.
 2. After the download completes, click the file.
-3. Click *Import Appliance* and import the "Univention-App-ownCloud-virtualbox.ova" file. This is a large file so it may take some time to download. 
+3. Click *Import Appliance* and import the *Univention-App-ownCloud-virtualbox.ova* file. This is a large file so it may take some time to download. 
 4. Import the file and accept the licence agreement. 
 5. Select the imported image and click *Start*. Allow time for the server to start. In most cases, 5 seconds is sufficient. 
 6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Note the following conditions:
