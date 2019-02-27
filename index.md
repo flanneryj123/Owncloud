@@ -72,11 +72,11 @@ To install and configure the server:
 
 ### Activating the licence
 
-After you complete the installation and configuration, you need to activate your licence. To do so, open a browser and enter the IP address of the server that you created in the previous step. 
+After you complete the installation and configuration, you need to activate your licence. The licence data is sent to the email address that you entered during configuration. Open a browser and enter the IP address of the server. Click *Upload licence file* and add the licence data from the email. 
 
 ### Creating ownCloud users
 
-Next you need to create some users to test the connection to the server:
+Next you need to create some ownCloud users to test the connection to the server:
 
 1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://\<ip address>/univention-management-console where \<ip_address> is the IP address of the server that you created.
 2. Click on the *System and domain settings* tile. 
