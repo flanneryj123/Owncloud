@@ -92,4 +92,4 @@ Finally, you need to download and install the desktop or mobile client and test 
 4. Enter a user name and password. 
 5. To verify that the connection is working, you can create a new folder and place a file in it. 
 
-You are now ready to begin using your ownCloud server. For more information, see the User's Manual [here] (https://doc.owncloud.com/server/user_manual/).
+You are now ready to begin using your ownCloud server. For more information, see the  [User's Manual](https://doc.owncloud.com/server/user_manual/).
