@@ -78,7 +78,7 @@ After you complete the installation and configuration, you need to activate your
 
 Next you need to create some ownCloud users to test the connection to the server:
 
-1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://\<ip address>/univention-management-console where \<ip_address> is the IP address of the server that you created.
+1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following url https://\<ip address>/univention-management-console in your browser. Where \<ip_address> is the IP address of the server that you created.
 2. Click on the *System and domain settings* tile. 
 3. Log in with the Administrator user and password that you entered previously. 
 4. To create users, click *Add:User* and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password for security reasons.
