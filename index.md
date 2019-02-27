@@ -6,17 +6,17 @@ ownCloud is an open source file synching and sharing application. This guide des
 
 ### Audience
 
-The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to get familiar with ownCloud. 
+The intended audience for this guide are new users who want to complete a trial set up of the Appliance version of the ownCloud server. Completing this guide will help you to become familiar with ownCloud. 
 
 ### Overview
 
 ### Deployment options
 
-There are a number of deployment options, including the Appliance image, that can be used to instal the ownCloud server:
+In this guide, we will install the Appliance image. There are a number of deployment options:
 
 + Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
-+ Docker image: These images are designed for experienced users who work in dockerized environments.
-+ Appliance image: These images are the simplest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
++ Docker images: These images are designed for experienced users who work in dockerized environments.
++ Appliance images: These images are the simplest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
 + Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
 + Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
  
@@ -65,7 +65,7 @@ To install and configure the server:
 3. Click Import Appliance and import the Univention-App-ownCloud-virtualbox.ova file. This is a large file so it may take some time to download. 
 4. Import the file and accept the licence agreement. 
 5. Select the imported image and click Start. Allow time for the server to start. In most cases, 5 seconds is sufficient. 
-6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Note any paswords and the IP address of the server. 
+6. The Configuration Wizard is displayed. Use it to review the localization settings, domain setup, account information and host settings. Note any passwords and the IP address of the server. 
 7. To complete the configuration, click Finish. 
 
 ### Activating the licence
