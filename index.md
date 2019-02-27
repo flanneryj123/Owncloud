@@ -72,7 +72,7 @@ To install and configure the server:
 + Note any passwords and the IP address of the server a they are required later.
 + The password that you enter here is the root user's password for the virtaul machine that you are accessing.
 * If you use Fully Qualified Domain Names (FQDN)and hosts, enter them. If you are not familiar with these, use the default settings.
-7. To complete the configuration, click "Finish". 
+7. To complete the configuration, click *Finish*. 
 
 ### Activating the licence
 
@@ -82,7 +82,7 @@ After you complete the installation and configuration, you need to activate your
 
 Next you need to create some ownCloud users to test the connection to the server:
 
-1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following url https://\<ip address>/univention-management-console in your browser. Where \<ip_address> is the IP address of the server that you created.
+1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following url *https://\<ip address>/univention-management-console* in your browser. Where *\<ip_address>* is the IP address of the server where you installed ownCloud.
 2. Click on the *System and domain settings* tile. 
 3. Log in with the Administrator user and password that you entered previously. 
 4. To create users, click *Add:User* and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password for security reasons.
