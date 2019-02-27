@@ -17,7 +17,7 @@ There are a number of deployment options:
 + Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
 + Docker images: These images are designed for experienced users who work in dockerized environments.
 + Appliance images: These images are the simplest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
-+ Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
++ Linux distribution packages: Specific packages are available for popular distributions of Linux such as Red Hat Enterprise Linux. 
 + Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
  
 For more information about each of these options, see [Download ownCloud](https://ownCloud.org/download/#ownCloud-server-tar-ball).
