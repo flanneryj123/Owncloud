@@ -35,7 +35,7 @@ The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
 
 The documentation for the Appliance is [here](https://doc.owncloud.com/server/admin_manual/appliance/what-is-it.html).
 
-A more detailed version of some of the steps described here is available in the [White Paper for Appliance](https://oc.owncloud.com/rs/038-KRL-592/images/Whitepaper_User_Guide_Appliance_ENG.pdf) PDF document. 
+You can find another version of some of the steps described here, with screenshots, in the [White Paper for Appliance](https://oc.owncloud.com/rs/038-KRL-592/images/Whitepaper_User_Guide_Appliance_ENG.pdf) PDF document. 
 
 ## Installation
 
