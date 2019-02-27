@@ -1,15 +1,19 @@
 #Quick Start Guide for ownCloud
+
 This guide describes how to quickly install and configure your ownCloud server and how to connect to it from a client. This will help you to get familiar with ownCloud and let you verify that some basic user and connection settings are correct.
 
 ##About this Guide
 
 ###Audience
+
 The intended audience for this guide are new users who want to complete a basic set up of the Appliance version of the ownCloud server. 
 
 ###Overview
+
 To complete this quick start, you need to install the ownCloud Appliance and connect to it from a mobile or desktop application. 
 
 ###Deployment options
+
 There are a number of deployment options, including the Appliance image, that can be used to instal the ownCloud server:
 
 *Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
@@ -23,14 +27,16 @@ For more information about each of these options, see [Download ownCloud](https:
 You can also download the desktop or mobile client from [the same link](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 
 ###Assumptions
+
 This guide assumes that you will install the Appliance image of the ownCloud server and that you will connect to it with a desktop or mobile client. 
 
 ###Documentation
 The documentation for ownCloud is [here] ()
 
-
 ##Installation
+
 ###Introduction
+
 This quick start guide consists of the following tasks:
 
 1. Installing and configuring the ownCloud Appliance image
@@ -40,12 +46,15 @@ This quick start guide consists of the following tasks:
 
 
 ###System requirements
+
 For the list of system requirements, see [System requirements](https://doc.ownCloud.com/server/admin_manual/installation/system_requirements.html) 
 
 ###User requirements
+
 Ensure that the user who installs the server is an Administrator. 
 
 ###Downloading
+
 Download the ownCloud Appliance image and the desktop or mobile client from {here](https://ownCloud.org/download/#ownCloud-server-tar-ball)
  
 Ensure that you have downloaded the required virtualization tool. This example uses VirtualBox.  
@@ -65,9 +74,11 @@ To install and configure the ownCloud Appliance server:
 7. To complete the configuration, click Finish. 
 
 ###Activating the licence
+
 After you complete the installation and configuration, you need to activate your licence. To do so, open a browser and enter the IP address of the server that you created in the previous step.
 
 ###Creating users
+
 Next you need to create some users to test the connection to the server
 
 1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://<ip address>/univention-management-console where <ip_address> is the IP address of the server that you created.
@@ -76,10 +87,10 @@ Next you need to create some users to test the connection to the server
 4. To create users, click Add:User and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password.
 
 ### Testing the desktop or mobile client
+
 Finally, you need to download and install the desktop or mobile client and test the connection to the server. In this guide, we will download the Desktop Cient. 
 1. Download the Desktop Client from {here](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 2. To run the application, click the downloaded file. 
 3. Enter the IP address of your ownCloud server in the Server Address field. 
 4. Enter a user name and password. 
 5. To verify that the connection is working, you can create a new folder and place a file in it. 
-
