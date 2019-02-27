@@ -33,7 +33,7 @@ The documentation for ownCloud is [here](https://doc.owncloud.com/server/).
 
 The documentation for the Appliance is [here](https://doc.owncloud.com/server/admin_manual/appliance/what-is-it.html)
 
-You can also download the [White Paper for Appliance](https://oc.owncloud.com/rs/038-KRL-592/images/Whitepaper_User_Guide_Appliance_ENG.pdf) document which provides an overvie of this process with screenshots. 
+For an overview of this guide with screenshots, you can also download the [White Paper for Appliance](https://oc.owncloud.com/rs/038-KRL-592/images/Whitepaper_User_Guide_Appliance_ENG.pdf) PDF document. 
 
 ## Installation
 
@@ -81,7 +81,7 @@ After you complete the installation and configuration, you need to activate your
 Next you need to create some users to test the connection to the server
 
 1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://\<ip address>/univention-management-console where \<ip_address> is the IP address of the server that you created.
-2. Click on the System and domain settings tile. 
+2. Click on the *System and domain settings* tile. 
 3. Log in with the Administrator user and password that you created previously. 
 4. To create users, click *Add:User* and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password.
 
