@@ -16,11 +16,11 @@ To complete this quick start, you need to install the ownCloud Appliance and con
 
 There are a number of deployment options, including the Appliance image, that can be used to instal the ownCloud server:
 
-+Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
-+Docker image: These images are designed for experienced users who work in dockerized environments.
-+Appliance image: The Appliance image is the easiest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
-+Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
-+Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
++ Tarball distributions: These are the most commonly used as they offer the most customisation options. This is best for production environments.
++ Docker image: These images are designed for experienced users who work in dockerized environments.
++ Appliance image: The Appliance image is the easiest way to install the server. You use it with Virtualization software such VirtualBox. It is the best option for inexperienced users. This is the option that we will use in this guide.
++ Linux distribution packages: Specific packages are available for popular distributions of Linux such a Red Hat Enterprise Linux. 
++ Hosted servers: A number of web service providers offer ownCloud installations as part of their web hosting offerings. 
  
 For more information about each of these options, see [Download ownCloud](https://ownCloud.org/download/#ownCloud-server-tar-ball)
 
@@ -78,7 +78,7 @@ After you complete the installation and configuration, you need to activate your
 
 Next you need to create some users to test the connection to the server
 
-1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://<ip address>/univention-management-console where <ip_address> is the IP address of the server that you created.
+1. After you activate the licence, you are redirected to the Portal. If you are not, enter the following https://\<ip address>/univention-management-console where \<ip_address> is the IP address of the server that you created.
 2. Click on the System and domain settings tile. 
 3. Log in with the Administrator user and password that you created previously. 
 4. To create users, click Add:User and create the users as required. It is recommended that you select the checkbox that requires users to reset their initial password.
